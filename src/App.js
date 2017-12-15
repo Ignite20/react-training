@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './tom-clancys-the-division-logo.png';
 import './App.css';
-import { MainContainer } from "./MainContainer";
+import { MainContainer } from "./containers/boxes/MainContainer";
+import {Menu} from './containers/menu/Menu';
+import * as MyStyledComps from './styledcomponents/MyStyledComps';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <MainContainer />
+        <MyStyledComps.HeaderImage src={logo}  alt="logo" />
+        <MyStyledComps.MenuDiv>
+          <Menu />
+        </MyStyledComps.MenuDiv>
+        <MyStyledComps.BodyDiv>
+          <MainContainer />
+        </MyStyledComps.BodyDiv>
       </div>
     );
   }

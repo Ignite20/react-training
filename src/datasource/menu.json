@@ -1,0 +1,26 @@
+{
+	"header":"Sections",
+	"img":"img/menu-logo.png",
+	"data":[
+		{
+			"title":"Weapons",
+			"href":"#",
+			"icon":"menuIcons/"
+		},
+		{
+			"title":"Armor",
+			"href":"#",
+			"icon":"menuIcons/"
+		},
+		{
+			"title":"Locations",
+			"href":"#",
+			"icon":"menuIcons/"
+		},
+		{
+			"title":"NPCs",
+			"href":"#",
+			"icon":"menuIcons/"
+		}
+	]
+}
