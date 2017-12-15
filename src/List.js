@@ -1,26 +1,38 @@
 import React,{Component} from 'react';
 import {ListItem} from './ListItem';
 
-
-
 export class List extends Component{
 	
 
 	constructor(props){
 		super(props);
-		this.state = {data:[]};
-		console.log(this.props.data);
 		
+		const mArray = new Array(this.props.data.data);
+		console.log(mArray);	
+
+		const custom = mArray[0].map((obj,index) => {
+			//console.log(obj.src);
+			return <ListItem key={index} obj={obj} />
+		});
+
+		this.state = {
+			data:custom
+		}
+	}
+
+	componentWillMount(){
+		
+		//const custom = this.mArray.map((object, index) => {
+			//
+		//});
 		
 	}
 
 	render(){
-		const customList = this.props.data.map((value, index) => {
-			return <ListItem value={value} key={index} title={value * index} />
-		});
+		console.log(this.state.data);
 		return (
 			<ul>
-				{customList}
+				{this.state.data}
 			</ul>
 		);
 	}
