@@ -1,26 +1,26 @@
 {
-	"header":"Sections",
-	"img":"img/menu-logo.png",
-	"data":[
+	"header": "Sections",
+	"img": "img/menu-logo.png",
+	"data": [
 		{
-			"title":"Weapons",
-			"href":"#",
-			"icon":"menuIcons/"
+			"title": "Weapons",
+			"href": "/weapons",
+			"icon": "menuIcons/"
 		},
 		{
-			"title":"Armor",
-			"href":"#",
-			"icon":"menuIcons/"
+			"title": "Armor",
+			"href": "/armor",
+			"icon": "menuIcons/"
 		},
 		{
-			"title":"Locations",
-			"href":"#",
-			"icon":"menuIcons/"
+			"title": "Factions",
+			"href": "/factions",
+			"icon": "menuIcons/"
 		},
 		{
-			"title":"NPCs",
-			"href":"#",
-			"icon":"menuIcons/"
+			"title": "NPCs",
+			"href": "/npc",
+			"icon": "menuIcons/"
 		}
 	]
 }
