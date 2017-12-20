@@ -17,6 +17,11 @@ export const Pstyled = styled.p`
 	text-align: left;
 `;
 
+export const Header1 = styled.h1`
+	text-align: center;
+	size: 200px;
+`;
+
 export const Title = styled.h3`
 	text-align: left;
 `;
@@ -59,12 +64,38 @@ export const MenuDiv = styled.div`
 `;
 
 export const BodyDiv = styled.div`
-	margin-left: 180px; /* Same as the width of the sidenav */
+	margin-left: 200px; /* Same as the width of the sidenav */
 	padding: 20px;
 `;
 
+export const FlexDiv = styled.div`
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-content: left;
+	justify-content: left;
+	align-items: left;
+`;
+
 export const HeaderImage = styled.img`
+	position: relative;
 	height: 180px;
+	align: center;
+	margin-left: 200px;
+`;
+
+export const Image = styled.img`
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+`;
+
+export const MenuHeaderImage = styled.img`
+	height: 180px;
+	align: center;
 `;
 
 export const MenuLink = styled(Link)`

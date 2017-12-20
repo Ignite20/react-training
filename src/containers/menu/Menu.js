@@ -2,16 +2,15 @@ import React, { Component } from "react";
 import { MenuItem } from "./MenuItem";
 import { List } from "../list/List";
 import * as MyStyledComps from "../../styledcomponents/MyStyledComps";
+import { Link } from "react-router-dom";
 
 export class Menu extends Component {
 	constructor(props) {
 		super(props);
 		var dataJson = require("../../datasource/menu.json");
-		console.log(dataJson);
 		const img = dataJson.img;
-		console.log(img);
 		const items = dataJson.data.map((obj, index) => {
-			return <MenuItem obj={obj} />;
+			return <MenuItem key={index} obj={obj} />;
 		});
 
 		this.state = {
@@ -23,7 +22,9 @@ export class Menu extends Component {
 	render() {
 		return (
 			<div>
-				<MyStyledComps.HeaderImage src={this.state.headerImage} />
+				<Link to="/">
+					<MyStyledComps.MenuHeaderImage src={this.state.headerImage} />
+				</Link>
 				<MyStyledComps.UlStyled>{this.state.data}</MyStyledComps.UlStyled>
 			</div>
 		);

@@ -1,0 +1,39 @@
+{
+	"cleaners": {
+		"title": "Cleaners",
+		"img": "/img/Cleaners.jpg",
+		"quote":
+			"These streets must be sanitized. To save our city, we must burn away this disease. Every trace of it. No matter the cost.",
+		"content":
+			"the Cleaners are former New York City sanitation workers (garbage men, janitors, custodians, etc.) who lost everything during the outbreak. Formed by Joe Ferro, they are convinced that the only way to save the city from the virus is to burn everything down, including the people still living in it.\nAfter the death of Joe Ferro and the loss of more than half of their man power and their main source of napalm supply and production, the Cleaners were weakened to the point that they are no longer a threat to the JTF.",
+		"crews": {
+			"title": "Crews",
+			"content": [
+				"Swing Shift",
+				"Early Shift",
+				"Night Shift",
+				"Bargaining Unit",
+				"Four Horsemen",
+				"Zetticci Bros.",
+				"Derby's Crew",
+				"Robinson's Crew",
+				"Almanza's Crew",
+				"Marconi's Crew",
+				"Davenport's Crew",
+				"Kotowski's Crew",
+				"Quintanilla's Crew"
+			]
+		},
+		"tactics": {
+			"title": "Tactics",
+			"content":
+				"When fighting Cleaners, Agents should keep a distance from them, as Cleaners are equipped with flamethrowers and can easily burn and kill them. Using long range weapons is recommended. If a member of the Cleaners is shot enough in the gas tank backpack, it will explode and damage them severely, or kill them depending on their level. However, not all Cleaners wear gas tanks such as Mechanics and Shields."
+		}
+	},
+
+	"rogue": {},
+
+	"lmb": {},
+
+	"division": {}
+}

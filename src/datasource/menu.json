@@ -1,6 +1,6 @@
 {
 	"header": "Sections",
-	"img": "img/menu-logo.png",
+	"img": "http://localhost:3000/img/menu-logo.png",
 	"data": [
 		{
 			"title": "Weapons",

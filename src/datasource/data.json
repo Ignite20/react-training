@@ -1,24 +1,32 @@
 {
-	"data":[
+	"data": [
 		{
-			"title":"Cleaners",
-			"description":"These streets must be sanitized. To save our city, we must burn away this disease. Every trace of it. No matter the cost.\n— Cleaners",
-			"src":"img/division_cleaner.jpg"
+			"title": "Cleaners",
+			"index": "cleaners",
+			"description":
+				"These streets must be sanitized. To save our city, we must burn away this disease. Every trace of it. No matter the cost.\n— Cleaners",
+			"src": "img/division_cleaner.jpg"
 		},
 		{
-			"title":"The Division",
-			"description":"\"Extremis Malis Extrema Remedia\"\n— Motto; Latin. Literal translation is \"Extreme Evil, Extreme Remedy.\" More commonly translated as the proverb, \"Desperate times call for desperate measures.\"",
-			"src":"img/division_division.png"
+			"title": "The Division",
+			"index": "division",
+			"description":
+				"\"Extremis Malis Extrema Remedia\"\n— Motto; Latin. Literal translation is \"Extreme Evil, Extreme Remedy.\" More commonly translated as the proverb, \"Desperate times call for desperate measures.\"",
+			"src": "img/division_division.png"
 		},
 		{
-			"title":"Last Man Battalion",
-			"description":"Freedom is not a right. Liberty is not a given. This city needs an iron fist to restore order. There shall be no resistance. No matter who stands in our way.\n— Charles Bliss (leader of the Last Man Battalion)",
-			"src":"img/division_lmb.jpg"
+			"title": "Last Man Battalion",
+			"index": "lmb",
+			"description":
+				"Freedom is not a right. Liberty is not a given. This city needs an iron fist to restore order. There shall be no resistance. No matter who stands in our way.\n— Charles Bliss (leader of the Last Man Battalion)",
+			"src": "img/division_lmb.jpg"
 		},
 		{
-			"title":"Rogue",
-			"description":"A Rogue First Wave Division Agent is a former Division agent who disavowed the Strategic Homeland Division for one reason or another and has either lended their services to another faction such as the Last Man Battalion or are working on their own, both cases working against the Division itself.",
-			"src":"img/division_rogue.jpg"
+			"title": "Rogue",
+			"index": "rogue",
+			"description":
+				"A Rogue First Wave Division Agent is a former Division agent who disavowed the Strategic Homeland Division for one reason or another and has either lended their services to another faction such as the Last Man Battalion or are working on their own, both cases working against the Division itself.",
+			"src": "img/division_rogue.jpg"
 		}
 	]
 }
