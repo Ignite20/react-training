@@ -18,11 +18,11 @@ export class ListItem extends Component {
 			<MyCompos.LiLi
 				onClick={() => this.onClickHandle(this, this.props.obj.index)}
 			>
-				<MyCompos.Img src={this.props.obj.src} alt="" />
 				<MyCompos.MDiv>
 					<MyCompos.Title>{this.props.obj.title}</MyCompos.Title>
 					<MyCompos.Pstyled>{this.props.obj.description}</MyCompos.Pstyled>
 				</MyCompos.MDiv>
+				<MyCompos.Img src={this.props.obj.src} alt="" />
 			</MyCompos.LiLi>
 		);
 	}

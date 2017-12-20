@@ -8,37 +8,42 @@ export const MDiv = styled.div`
 	text-align: left;
 	margin: 10px;
 	padding: 5px;
-	height: 180px;
 `;
 
 export const Pstyled = styled.p`
-	color: #888888;
-	margin-right: 140px;
+	color: #ffffff;
+	margin-right: 180px;
 	text-align: left;
 `;
 
 export const Header1 = styled.h1`
 	text-align: center;
 	size: 200px;
+	background-color: #ff6d10;
 `;
 
 export const Title = styled.h3`
 	text-align: left;
+	color: #ff6a13;
 `;
 
 export const LiLi = styled.li`
-	list-style: none;
-	position: relative;
-	background: #d2d2d2;
+	display: flex;
+	flex-flow: row nowrap;
+	background: #585858;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
+	margin: 10px;
+	padding: 10px;
+	align-content: right;
 `;
 
 export const Img = styled.img`
-	position: absolute;
-	right: 10px;
-	width: 100px;
-	margin: 20px;
+	height: 200px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	object-fit: contain;
 `;
 
 export const SimpleLi = styled.li`
@@ -71,11 +76,7 @@ export const BodyDiv = styled.div`
 export const FlexDiv = styled.div`
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: left;
-	align-content: left;
-	justify-content: left;
-	align-items: left;
+	background-color: #585858;
 `;
 
 export const HeaderImage = styled.img`
@@ -87,10 +88,9 @@ export const HeaderImage = styled.img`
 
 export const Image = styled.img`
 	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
+	flex-flow: row nowrap;
 	align-items: center;
+	object-fit: contain;
 `;
 
 export const MenuHeaderImage = styled.img`
@@ -105,5 +105,5 @@ export const MenuLink = styled(Link)`
 `;
 
 export const UlStyled = styled.ul`
-	margin-left: 0px;
+	text-color: #ffffff;
 `;

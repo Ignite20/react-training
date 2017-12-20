@@ -31,9 +31,135 @@
 		}
 	},
 
-	"rogue": {},
+	"rogue": {
+		"title": "Cleaners",
+		"img": "/img/rogue.png",
+		"quote":
+			"These streets must be sanitized. To save our city, we must burn away this disease. Every trace of it. No matter the cost.",
+		"content":
+			"Dissatisfied and angered by the heavy casualties they sustained in trying to maintain control of the Dark Zone, many of the remaining agents of the First Wave went rogue. Led by Aaron Keener (who also convinced them to go rogue), they slaughtered other First Wave agents still loyal to the Division and formed an alliance with the LMB. They are among the most dangerous enemies in the game.",
+		"crews": {
+			"title": "Named individuals",
+			"content": [
+				"'Scarecrow'",
+				"'Hornet'",
+				"'Raptor'",
+				"'Domino'",
+				"'Torque'",
+				"'Tarantula'",
+				"'Redback'",
+				"'Widow'",
+				"'Weaver'",
+				"'Bishop'",
+				"'Rook'",
+				"'Joker'",
+				"'Soap'",
+				"'Price'",
+				"'Indominous'",
+				"'Beetle'",
+				"'Kentucky'",
+				"'Vostok'",
+				"'Gambit'",
+				"'Cyclops'",
+				"'Shadow'",
+				"'Sonic'",
+				"'Irish'",
+				"'Hawkins'",
+				"'Nickel'",
+				"'Bluebird'",
+				"'Kremlin'",
+				"'Harrier'",
+				"'Clydesdale'",
+				"'Tulip'",
+				"'Daisy'",
+				"'Soprano'",
+				"'Apollo'",
+				"Espadon",
+				"Rapier"
+			]
+		},
+		"tactics": {
+			"title": "Tactics",
+			"content": "There is no escape."
+		}
+	},
 
-	"lmb": {},
+	"lmb": {
+		"title": "Last Man Battalion",
+		"img": "/img/Last_Man_Battalion.jpg",
+		"quote":
+			"Freedom is not a right. Liberty is not a given. This city needs an iron fist to restore order. There shall be no resistance. No matter who stands in our way",
+		"content":
+			"The Last Man Battalion, often referred to as LMB, is a private military company led by Charles Bliss. The LMB was hired by prestigious Wall Street companies to protect valuable papers during the outbreak, but were abandoned when the crisis worsened. Now they aim to retake New York and establish a new world order by force. Compared to the other factions, they employ far more specialists with more advanced gear, and their positions are more heavily fortified.",
+		"crews": {
+			"title": "Known LMB Squads",
+			"content": [
+				"Sniper Squad",
+				"Komodo Squad",
+				"Cougar Squad",
+				"Cheetah Squad",
+				"Harrier Squad",
+				"Grizzly Squad",
+				"Hawk Squad",
+				"Horse Squad",
+				"Lima Squad",
+				"Javelin Squad",
+				"Healer",
+				"Flowers",
+				"Devil Squad",
+				"Lion Squad",
+				"Papa Squad",
+				"Whisky Squad",
+				"Raptor Squad (Intel File)",
+				"Vulcan Squad (Intel File)",
+				"Quarterback Squad (Intel File)",
+				"Reptiles Squad",
+				"Golf Squad",
+				"Jaguar Squad",
+				"Panther Squad",
+				"The Gunner",
+				"Goshawk squad",
+				"Mike Squad",
+				"Kilo Squad",
+				"Hunter Squad",
+				"Eagle Squad",
+				"Blades",
+				"X-Ray Squad",
+				"Sierra Squad",
+				"Hit Squad",
+				"Peregrine Squad",
+				"Falcon Squad",
+				"Viper squad (Grand Central station)",
+				"Coyote squad (Russian Consulate mission)",
+				"Oscar Squad"
+			]
+		},
+		"tactics": {
+			"title": "Tactics",
+			"content":
+				"The LMB are some of the toughest AI enemies that the player will encounter in Manhattan. Their ranks can range from Lvl 20-30, and above 31 in the Dark Zone. Engaging groups of LMB soldiers on the same level, or higher than the player is not recommended unless the player is accompanied by group members, as they will be able to make short work of the player."
+		}
+	},
 
-	"division": {}
+	"division": {
+		"title": "Strategic Homeland Division",
+		"img": "/img/strategic_homeland_division.jpg",
+		"quote":
+			"\"Extremis Malis Extrema Remedia\" \n— Motto; Latin. Literal translation is \"Extreme Evil, Extreme Remedy.\" More commonly translated as the proverb, \"Desperate times call for desperate measures.\"",
+		"content":
+			"The main objective of The Division is to ensure the continuity of government in the case of a catastrophic emergency. There is a possibility their jurisdiction is worldwide as they are brought in when society falls. Released in waves, Division agents are activated when all other forms of public protection have failed and the President signs Directive 51 in order to activate the Division.\nFollowing the completion of the mission and averting the crisis, the Division Agents are deactivated and return to their daily lives.",
+		"crews": {
+			"title": "Branches",
+			"content": [
+				"Analytics: Handles information processing and data management from secured locations across the nation.",
+				"Strategic: Act as extra security and staff detail to government officials and leaders across the nation.",
+				"Tactical: Are the boots on the ground that handle field work."
+			]
+		},
+		"tactics": {
+			"title": "Tactics",
+			"content":
+				"When fighting Cleaners, Agents should keep a distance from them, as Cleaners are equipped with flamethrowers and can easily burn and kill them. Using long range weapons is recommended. If a member of the Cleaners is shot enough in the gas tank backpack, it will explode and damage them severely, or kill them depending on their level. However, not all Cleaners wear gas tanks such as Mechanics and Shields."
+		}
+	}
 }
