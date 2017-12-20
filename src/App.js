@@ -4,7 +4,7 @@ import "./App.css";
 import { Factions } from "./screens/Factions";
 import { Menu } from "./containers/menu/Menu";
 import * as MyStyledComps from "./styledcomponents/MyStyledComps";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HomeScreen } from "./screens/Home";
 import { WeaponsScreen } from "./screens/Weapons";
 import { ArmorScreen } from "./screens/Armor";

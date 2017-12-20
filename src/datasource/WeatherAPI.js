@@ -10,10 +10,6 @@ export class OpenWeatherAPI {
 		return this.data;
 	}
 
-	set setData(jsonData) {
-		this.data = jsonData;
-	}
-
 	getIcon(iconName) {
 		return ICON_LINK + iconName + ".png";
 	}

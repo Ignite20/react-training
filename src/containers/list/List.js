@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { ListItem } from "./ListItem";
 import * as MyStyledComps from "../../styledcomponents/MyStyledComps";
-import { Link, Route } from "react-router-dom";
 
 export class List extends Component {
 	constructor(props) {

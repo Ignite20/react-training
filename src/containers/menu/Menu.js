@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { MenuItem } from "./MenuItem";
-import { List } from "../list/List";
 import * as MyStyledComps from "../../styledcomponents/MyStyledComps";
 import { Link } from "react-router-dom";
 

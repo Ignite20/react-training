@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { OpenWeatherAPI } from "../datasource/WeatherAPI";
+import * as StyleComp from "../styledcomponents/MyStyledComps";
 
 export class WeatherScreen extends Component {
 	constructor(props) {
@@ -12,20 +13,23 @@ export class WeatherScreen extends Component {
 	}
 
 	componentWillMount() {
-		var dataJson = this.weather.gatherData("Malaga", "ES").then(response => {
+		this.weather.gatherData("Malaga", "ES").then(response => {
 			this.setState({ data: response });
 			console.log(this.state.data);
 		});
 	}
 
 	render() {
-		if (this.state.data != {} && this.state.data.main != undefined) {
+		if (this.state.data !== {} && this.state.data.main !== undefined) {
 			console.log(this.state.data.main.temp);
 			return (
-				<div>
+				<StyleComp.MDiv>
 					<h1>Temperatura Málaga: {this.state.data.main.temp}ºC</h1>
-					<img src={this.weather.getIcon(this.state.data.weather[0].icon)} />
-				</div>
+					<img
+						src={this.weather.getIcon(this.state.data.weather[0].icon)}
+						alt="fuck off obligatory alt"
+					/>
+				</StyleComp.MDiv>
 			);
 		} else {
 			return <h1> </h1>;

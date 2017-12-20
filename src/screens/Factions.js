@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { List } from "../containers/list/List";
-import styled from "styled-components";
 
 export class Factions extends Component {
 	constructor(props) {

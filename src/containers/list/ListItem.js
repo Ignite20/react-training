@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styled from "styled-components";
 import * as MyCompos from "../../styledcomponents/MyStyledComps";
 
 export class ListItem extends Component {
