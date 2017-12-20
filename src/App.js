@@ -9,6 +9,7 @@ import { HomeScreen } from "./screens/Home";
 import { WeaponsScreen } from "./screens/Weapons";
 import { ArmorScreen } from "./screens/Armor";
 import { FactionsInfo } from "./screens/FactionsInfo";
+import { WeatherScreen } from "./screens/WeatherScreen";
 
 class App extends Component {
 	render() {
@@ -25,6 +26,7 @@ class App extends Component {
 							<Route exact path="/weapons" component={WeaponsScreen} />
 							<Route exact path="/armor" component={ArmorScreen} />
 							<Route exact path="/factions" component={Factions} />
+							<Route exact path="/weather" component={WeatherScreen} />
 							<Route
 								exact
 								path="/factions/:id"
