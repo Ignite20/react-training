@@ -9,6 +9,28 @@ export const MDiv = styled.div`
 	padding: 5px;
 `;
 
+export const RowDiv = styled.div`
+	display: flex;
+	flex-flow: row nowrap;
+	flex-direction: row;
+	padding: 10px;
+`;
+
+export const ColumnDiv = styled.div`
+	display: flex;
+	flex-flow: row nowrap;
+	flex-direction: column;
+	padding-right: 10px;
+`;
+
+export const Icon = styled.img`
+	margin-top: -5px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+`;
+
 export const Pstyled = styled.p`
 	color: #ffffff;
 	margin-right: 180px;
